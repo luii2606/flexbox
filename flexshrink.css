@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor{
+  display: flex;
+  max-width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #000;
+
+  
+}
+.items{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items:nth-child(2)
+{
+  align-self: flex-end;
+}

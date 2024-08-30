@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Moderustic:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{ 
+  --negro:black;
+  --blanco:#fff;
+  --gris:#414141;
+  --naranja: orange;
+}
+body{
+  background-color: var(--gris);
+  
+}
+.menu{
+  display: flex;
+  background-color:var(--negro);
+  color: var(--blanco);
+  height:55px;
+}
+.submenu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 20px;
+  font-size: 7px;
+}
+.imagen{
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  padding-left: 25px;
+ 
+}
+
+.item__articulos{
+  margin-right: 20px;
+  cursor: pointer;
+  border: solid 18px var(--negro);
+}
+.item__articulos:hover{
+  background-color: var(--gris);
+  color: var(--naranja);
+  border: solid 18px var(--gris);
+}
+.item__notas{
+  margin-right: 20px;
+  cursor: pointer;
+  border: solid 18px var(--negro);
+}
+.item__notas:hover{
+  background-color: var(--gris);
+  color: var(--naranja);
+  border: solid 18px var(--gris);
+}
+
+.item__links{
+  margin-right: 20px;
+  cursor: pointer;
+  border: solid 18px var(--negro);
+}
+.item__links:hover{
+  background-color: var(--gris);
+  color: var(--naranja);
+  border: solid 18px var(--gris);
+ 
+}
+
+.item__guides{
+  margin-right: 20px;
+  cursor: pointer;
+  border: solid 18px var(--negro);
+}
+
+.item__guides:hover{
+  background-color: var(--gris);
+  color: var(--naranja);
+  border: solid 18px var(--gris);
+}
+.item__almanic{
+  margin-right: 20px;
+  cursor: pointer;
+  border: solid 18px var(--negro);
+}
+.item__almanic:hover{
+  background-color: var(--gris);
+  color: var(--naranja);
+  border: solid 18px var(--gris);
+}
+
+.item__suffle{
+  margin-right: 20px;
+  cursor: pointer; 
+  border: solid 18px var(--negro);
+
+}
+.item__suffle:hover{
+  background-color: var(--gris);
+  color: var(--naranja);
+  border: solid 18px var(--gris);
+}
+.lupa{
+  display: flex;
+  background-color: var(--blanco);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-left:12% ;
+  margin-top: 10px;
+  color: var(--negro);
+  justify-content: center;
+  align-items: center;
+}
